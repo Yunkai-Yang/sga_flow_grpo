@@ -170,13 +170,13 @@ def _summed_reward_gradients(rewards, images):
     )[0]
 
 
-def diff_pickup_score(
+def diff_pickscore(
     device,
     pickscore_model,
     clip_processor,
     temperature: float = 0.05,
 ):
-    from flow_grpo.diff_pickup_score import DifferentiablePickScore
+    from flow_grpo.diff_pickscore import DifferentiablePickScore
 
     scorer = DifferentiablePickScore(
         device=device,
@@ -580,7 +580,7 @@ def multi_score(
         "geneval": geneval_score,
         "clipscore": clip_score,
         "image_similarity": image_similarity_score,
-        "diff_pickscore": diff_pickup_score,
+        "diff_pickscore": diff_pickscore,
         "diff_imagereward": diff_imagereward_score,
     }
     score_fns={}
