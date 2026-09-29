@@ -3,6 +3,10 @@ SGA-Flow-GRPO:<br>
 Spatial Gradient-Guided Credit Assignment for Flow-GRPO
 </h1>
 
+<div >
+  <a href='https://arxiv.org/abs/2609.32340'><img src='https://img.shields.io/badge/arxiv-2609.32340-red'></a>
+</div>
+
 <p align="center">
 Yunkai Yang,
 <a href="https://yudongzhang.com/">Yudong Zhang</a>,
@@ -140,3 +144,19 @@ Before changing the number of GPUs, update both the launch command and the GPU-d
 ## Acknowledgements
 
 This project builds on the [Flow-GRPO](https://github.com/yifan123/flow_grpo) and [DiffusionNFT](https://github.com/NVlabs/DiffusionNFT)  codebases and the open-source ecosystems of PyTorch, Diffusers, Accelerate, PEFT, and Weights & Biases.
+
+## Citation
+
+If you find SGA-Flow-GRPO useful for your research, welcome to 🌟 this repo and cite our work using the following BibTeX:
+
+```bibtex
+@article{yang2026sga_flow_grpo,
+      title={SGA-Flow-GRPO: Spatial Gradient-Guided Credit Assignment for Flow-GRPO}, 
+      author={Yunkai Yang and Yudong Zhang and Xinying Chen and Bin Luo and Jienan Lyu and Kunquan Zhang and Weitao Wan and Runmin Dong},
+      year={2026},
+      eprint={2609.32340},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2609.32340}, 
+}
+```
